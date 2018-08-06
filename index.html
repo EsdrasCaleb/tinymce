@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='js/tinymce/tinymce.js'></script>
+  <script>
+  tinymce.init({
+    selector: '#mytextarea',
+    plugins:["signwriting"],
+    toolbar:["signwriting"],
+  });
+  </script>
+</head>
+
+<body>
+<h1>Test to signwritring lang (Take time to load please be patient)</h1>
+  <form method="post">
+    <textarea id="mytextarea"></textarea>
+  </form>
+</body>
+</html>
